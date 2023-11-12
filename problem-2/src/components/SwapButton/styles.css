@@ -1,0 +1,15 @@
+.swap-form__input__token__icon__button {
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background: #ccc;
+}
+
+.swap-form__input__token__icon__button:hover {
+  background: #aaa;
+}

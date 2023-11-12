@@ -1,0 +1,25 @@
+.option-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-container__currency {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 5px;
+  text-align: left;
+}
+
+.dd-option-container {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #27262c;
+}
+
+.dd-option-container:hover {
+  background-color: #383241;
+}

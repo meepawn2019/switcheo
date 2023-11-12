@@ -1,0 +1,70 @@
+.exchange-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  row-gap: 16px;
+  background-color: #383241;
+}
+
+.exchange-container__token-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.token-input-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #27262c;
+}
+
+.token-input {
+  border: none;
+  outline: none;
+  font-size: 24px;
+  background-color: transparent;
+}
+
+.token-input:focus {
+  outline: none;
+}
+
+.token-input::-webkit-inner-spin-button,
+.token-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.token-input-currency {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ccc;
+  margin-right: 5px;
+}
+
+.token-input-currency {
+  text-align: left;
+}
+
+.exchange-container__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #1fc7d4;
+}
+
+.exchange-container__button:hover {
+  background-color: #1fc7d4aa;
+}
